@@ -1,0 +1,15 @@
+What is the difference between a merge and a rebase?
+
+Both git merge and get rebase are 2 types of merging. 
+
+Git rebase lets users integrate changes from one branch to another and the logs are modified
+once the action is complete. For example if there is a project with 3 commits
+on the master branch named 1,2,3 and the feature branch commits as commit A and B - then if we perform
+git rebase then the commits A and B will be rebased on the master branch as commit 4 and 5 and there will 
+be no logs of the feature branches. Thus it shows the complete history of merging of commits.
+
+Git merge lets you merge Git branches while the logs of commits on branches remain intact. For example if there is a project with 3 commits
+on the master branch named 1,2,3 and the feature branch commits as commit A and B - then if we perform
+git merge then commits A and B will be merged as commit 4 on the master branch. Thus you cannot track 
+when and how the commits were merged on the target branch.
+
