@@ -13,3 +13,6 @@ on the master branch named 1,2,3 and the feature branch commits as commit A and 
 git merge then commits A and B will be merged as commit 4 on the master branch. Thus you cannot track 
 when and how the commits were merged on the target branch.
 
+What is a remote repository?
+
+Remote repositories are versions of your project that are hosted on the Internet or network somewhere.
